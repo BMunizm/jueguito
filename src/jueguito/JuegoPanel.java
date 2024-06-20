@@ -55,7 +55,7 @@ public class JuegoPanel extends JPanel implements ActionListener {
         jugador.dibujar(g);
 
         // Dibuja la pregunta actual
-        g.setColor(Color.GREEN);
+        g.setColor(Color.BLACK);
         g.drawString(preguntaActual.getEnunciado(), 10, 20);
 
         // Dibuja las opciones de respuesta
