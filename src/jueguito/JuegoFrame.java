@@ -6,10 +6,6 @@ package jueguito;
  */
 import javax.swing.JFrame;
 
-/**
- *
- * @author Usuario
- */
 public class JuegoFrame extends JFrame {
     public JuegoFrame() {
         setTitle("Juego Básico");

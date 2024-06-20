@@ -4,17 +4,8 @@
  */
 package jueguito;
 
-/**
- *
- * @author Usuario
- */
 public class Jueguito {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        
         javax.swing.SwingUtilities.invokeLater(new Runnable() {
             public void run() {
                 JuegoFrame frame = new JuegoFrame();
@@ -22,7 +13,5 @@ public class Jueguito {
                 frame.setVisible(true);
             }
         });
-        
     }
-    
 }
