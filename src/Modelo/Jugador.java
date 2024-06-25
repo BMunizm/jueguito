@@ -1,4 +1,4 @@
-package jueguito;
+package Modelo;
 
 
 import java.awt.Color;

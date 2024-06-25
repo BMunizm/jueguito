@@ -4,6 +4,8 @@
  */
 package jueguito;
 
+import Modelo.Jugador;
+import Modelo.Pregunta;
 import javax.swing.JPanel;
 import java.awt.Graphics;
 import java.awt.Color;
@@ -39,7 +41,7 @@ public class JuegoPanel extends JPanel implements ActionListener {
         preguntaActual = preguntas.get(indicePreguntaActual);
 
         try {
-            pistaDCarreras = ImageIO.read(getClass().getResource("/jueguito/imagen.jpg")); // Carga la imagen de la pista
+            pistaDCarreras = ImageIO.read(getClass().getResource("/jueguito/pista.png")); // Carga la imagen de la pista
         } catch (IOException ex) {
             ex.printStackTrace();
         }
